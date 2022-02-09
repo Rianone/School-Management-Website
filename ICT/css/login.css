@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+#preloader{
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    overflow: auto;
+}
+#niveau{
+    font-size: 1.3rem;
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+  display: flex;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  color:#222;
+  height:100vh;
+  width: 100%;
+  flex-direction: column;
+
+}
+#logo
+{
+    margin-top: 4rem; 
+    margin-bottom: 2rem;
+}
+.left
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    
+}
+.form-control
+{
+    width: 100%;
+    padding: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    align-self: center;
+}
+form{
+    width: 80%;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+#copyright
+{
+    color:rgba(34, 31, 30, 0.925);
+    font-size: 12px;
+}
+.right
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.right h2
+{
+    font-size: 47px;
+    text-align: center;
+    position: absolute;
+    bottom: 40%;
+    color: white;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+}
+@media(min-width: 1200px)
+{
+    .left
+    {
+        flex: 2;
+    }
+    .right
+    {
+        flex: 3;
+    }
+}
+@media(max-width:950px)
+{
+    .left
+    {
+        flex: 1;
+    }
+    .right
+    {
+       display: none;
+    }
+    input
+   {
+    padding: 10px;
+   }
+   #button1,#button2
+   {
+       padding: 15px;
+   }
+}

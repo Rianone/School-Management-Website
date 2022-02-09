@@ -1,0 +1,34 @@
+.modal-contact-container{
+    z-index: 32;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    animation: fadein 1s ease-in-out;
+}
+.form-control{
+    padding:1rem;
+}
+.contact-container{
+    background-color: white;
+    width: 60%;
+    border-radius: 10%;
+    margin-top: 1rem;
+}
+.contact-title{
+   padding: 2rem;
+   margin: auto;
+   width: 100%;
+}
+#invalide{
+    margin: auto;
+    padding-bottom: 0.5rem;
+}
